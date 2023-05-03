@@ -17,7 +17,7 @@ const projectVariant = {
 };
 
 const Project = ({ title, subtitle, intro, link }) => {
-  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center item-center text-center p-16 text-deep-blue`;
+  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center item-center text-center md:p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
@@ -83,7 +83,7 @@ const Projects = () => {
           whileInView="visible"
           variants={container}
         >
-          <div className="flex justify-center text-center items-center p-10 bg-red max-w-[420px] max-h-[400px] text-2xl font-playfair font-semibold">
+          <div className="flex justify-center text-center items-center p-10 bg-red max-h-[400px] text-2xl font-playfair font-semibold">
             BEAUTEFUL USER INTERFACES
           </div>
           {/* child animation item */}
@@ -113,7 +113,7 @@ const Projects = () => {
             link="https://epilog.netlify.app"
           />
 
-          <div className="flex justify-center text-center items-center p-10 bg-blue max-w-[420px] max-h-[400px] text-2xl font-playfair font-semibold">
+          <div className="flex justify-center text-center items-center p-10 bg-blue max-h-[400px] text-2xl font-playfair font-semibold">
             SMOOTH USER EXPERIENCE
           </div>
         </motion.div>
