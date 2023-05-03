@@ -30,11 +30,7 @@ const Project = ({ title, subtitle, intro, link }) => {
             </p>
             <p className="mt-7">{intro}</p>
           </div>
-          <img
-            src={`../assets/${projectTitle}.png`}
-            alt={projectTitle}
-            className="w-full"
-          />
+          <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
         </a>
       ) : (
         <>
@@ -44,11 +40,7 @@ const Project = ({ title, subtitle, intro, link }) => {
             </p>
             <p className="mt-7">{intro}</p>
           </div>
-          <img
-            src={`../assets/${projectTitle}.png`}
-            alt={projectTitle}
-            className="w-full"
-          />
+          <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
         </>
       )}
     </motion.div>
@@ -89,7 +81,6 @@ const Projects = () => {
           className="sm:grid sm:grid-cols-3"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
           variants={container}
         >
           <div className="flex justify-center text-center items-center p-10 bg-red max-w-[420px] max-h-[400px] text-2xl font-playfair font-semibold">
