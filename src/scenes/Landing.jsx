@@ -15,7 +15,7 @@ const Landing = ({ setSelectedPage }) => {
         {isAboveMediumScreen ? (
           <div className="relative z-0 ml-20 before:absolute before:-top-12 before:-left-20 before:rounded-t-[350px] before:w-full before:max-w[350px] before:h-full before:border-2 before:border-blue before:z-[-1]">
             <img
-              src="../../assets/finn.jpg"
+              src="./assets/finn.jpg"
               className="filter contrast-125  hover:filter hover:saturate-150 duration-500 z-10 max-w-[400px] rounded-t-[350px]"
               alt="profile"
             />
@@ -23,7 +23,7 @@ const Landing = ({ setSelectedPage }) => {
         ) : (
           <img
             alt="profile"
-            src="../../assets/finn.jpg"
+            src="./assets/finn.jpg"
             className="filter contrast-125 hover:filter hover:saturate-200 duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[350px]"
           />
         )}
