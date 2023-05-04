@@ -1308,17 +1308,17 @@ body,
 }
 
 .before\:content-stamp1::before{
-  --tw-content: url('./assets/stamp-1.png');
+  --tw-content: url('/public/assets/stamp-1.png');
   content: var(--tw-content);
 }
 
 .before\:content-stamp2::before{
-  --tw-content: url('./assets/stamp-2.png');
+  --tw-content: url('/public/assets/stamp-2.png');
   content: var(--tw-content);
 }
 
 .before\:content-stamp3::before{
-  --tw-content: url('./assets/stamp-3.png');
+  --tw-content: url('/public/assets/stamp-3.png');
   content: var(--tw-content);
 }
 
@@ -1387,7 +1387,7 @@ body,
   }
 
   .xs\:before\:content-brush::before{
-    --tw-content: url('./assets/brush.png');
+    --tw-content: url('/public/assets/brush.png');
     content: var(--tw-content);
   }
 }

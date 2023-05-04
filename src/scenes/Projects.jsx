@@ -30,7 +30,7 @@ const Project = ({ title, subtitle, intro, link }) => {
             </p>
             <p className="mt-7">{intro}</p>
           </div>
-          <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
+          <img src={`../assets/${projectTitle}.jpg`} alt={projectTitle} />
         </a>
       ) : (
         <>
@@ -40,7 +40,7 @@ const Project = ({ title, subtitle, intro, link }) => {
             </p>
             <p className="mt-7">{intro}</p>
           </div>
-          <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
+          <img src={`../assets/${projectTitle}.jpg`} alt={projectTitle} />
         </>
       )}
     </motion.div>

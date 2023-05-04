@@ -26,10 +26,10 @@ module.exports = {
         opensans: ["Open Sans", "sans-serif"],
       },
       content: {
-        brush: "url('./assets/brush.png')",
-        stamp1: "url('./assets/stamp-1.png')",
-        stamp2: "url('./assets/stamp-2.png')",
-        stamp3: "url('./assets/stamp-3.png')",
+        brush: "url('/public/assets/brush.png')",
+        stamp1: "url('/public/assets/stamp-1.png')",
+        stamp2: "url('/public/assets/stamp-2.png')",
+        stamp3: "url('/public/assets/stamp-3.png')",
       },
     },
     screens: {
