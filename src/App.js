@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Navbar from "./scenes/Navbar";
 import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
@@ -6,12 +7,13 @@ import Projects from "./scenes/Projects";
 import Certificate from "./scenes/Certificate";
 import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
-import { useEffect, useState } from "react";
 import LineGradient from "./components/LineGradient";
 import useMediaQuery from "./hooks/useMediaQuery";
 
 function App() {
+  //selectedPage state for navbar active color
   const [selectedPage, setSelectedPage] = useState("home");
+  //isTopOfPage for navbar background color
   const [isTopOfPage, setIsTopOfPage] = useState(true);
   const isAboveMediumScreen = useMediaQuery("(min-width: 1060px)");
 

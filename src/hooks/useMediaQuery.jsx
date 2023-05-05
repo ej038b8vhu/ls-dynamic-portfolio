@@ -5,7 +5,7 @@ const useMediaQuery = (query) => {
   const [matches, setMatches] = useState(false);
 
   useEffect(() => {
-    //window.matchMedia(query) return { matched : boolen, media : 'query string', onchange: null }
+    //window.matchMedia('query') api return { matched : boolen, media : 'query string', onchange: null }
     const media = window.matchMedia(query);
     if (media.matches !== matches) {
       setMatches(media.matches);

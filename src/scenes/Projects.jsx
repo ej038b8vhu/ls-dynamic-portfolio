@@ -1,16 +1,15 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 
-//for parent container
+//for parent animation container variants setting
 const container = {
   hidden: {},
   visible: {
-    //each child's animations will be 0.2 sec in between
+    //each child's animations occur between 0.2 sec gap
     transition: { staggerChildren: 0.2 },
   },
 };
-
-//for children
+//for children animations variants prop
 const projectVariant = {
   hidden: { opacity: 0, scale: 0.8 },
   visible: { opacity: 1, scale: 1 },
@@ -71,12 +70,12 @@ const Projects = () => {
           </div>
         </div>
 
-        <p className="mt-10 mb-10">I am working on a chat application now.</p>
+        <p className="mt-10 mb-10">I am working on a chat application.</p>
       </motion.div>
 
       {/* PROJECTS */}
       <div className="flex justify-center">
-        {/* parent animation container */}
+        {/* parent animations container */}
         <motion.div
           className="sm:grid sm:grid-cols-3"
           initial="hidden"

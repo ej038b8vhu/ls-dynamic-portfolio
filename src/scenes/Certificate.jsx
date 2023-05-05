@@ -51,7 +51,6 @@ const Certificate = () => {
         </motion.div>
 
         <motion.div
-          //content is a property setting in tailwind.config for ::element
           className={`bg-red ${Certificatetyles} px-0 pb-2 before:content-stamp2`}
           initial="hidden"
           whileInView="visible"
@@ -73,7 +72,6 @@ const Certificate = () => {
         </motion.div>
 
         <motion.div
-          //content is a property setting in tailwind.config for ::element
           className={`bg-yellow ${Certificatetyles} px-0 pb-2 before:content-stamp3`}
           initial="hidden"
           whileInView="visible"

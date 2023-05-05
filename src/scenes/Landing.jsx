@@ -16,7 +16,7 @@ const Landing = ({ setSelectedPage }) => {
           <div className="relative z-0 ml-20 before:absolute before:-top-12 before:-left-20 before:rounded-t-[350px] before:w-full before:max-w[350px] before:h-full before:border-2 before:border-blue before:z-[-1]">
             <img
               src="./assets/finn.jpg"
-              className="filter contrast-125  hover:filter hover:saturate-150 duration-500 z-10 max-w-[400px] rounded-t-[350px]"
+              className="filter contrast-125 hover:filter hover:saturate-150 duration-500 z-10 max-w-[400px] rounded-t-[350px]"
               alt="profile"
             />
           </div>
@@ -46,6 +46,7 @@ const Landing = ({ setSelectedPage }) => {
         >
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
             Finn {""}
+            {/* before:content-brush, setting in tailwind.config */}
             <span className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush before:absolute before:-left-[35px] before:-top-[125px] before:z-[-1]">
               Lecter
             </span>
@@ -69,7 +70,7 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <AnchorLink
-            // bg-gradient-rainblue comes from tailwind.config 'backgroundImage' setting
+            // bg-gradient-rainblue set in tailwind.config 'backgroundImage'
             className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold hover:bg-blue hover:text-white transition duration-500"
             onClick={() => setSelectedPage("contact")}
             href="#contact"

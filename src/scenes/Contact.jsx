@@ -3,10 +3,11 @@ import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 
 const Contact = () => {
+  //react-hook-form hook
   const {
-    register, //able react-hook-form to identify specific input
-    trigger, //for validation
-    formState: { errors },
+    register, //function, able react-hook-form to identify specific input field
+    trigger, //function, trigger validation across the form
+    formState: { errors }, //give errors to use
   } = useForm();
 
   const onSubmit = async (e) => {
@@ -72,6 +73,7 @@ const Contact = () => {
             target="_blank"
             onSubmit={onSubmit}
             method="POST"
+            //https://formsubmit.co receive submit from your own email
             action="https://formsubmit.co/6bf4c2115be4bd078456250b5c708a10"
           >
             <input
@@ -79,7 +81,7 @@ const Contact = () => {
               className="w-full bg-blue font-semibold placeholder-opaque-black p-3"
               type="text"
               placeholder="NAME"
-              //set rule for react-hook-form
+              //set validation rule for react-hook-form
               {...register("name", {
                 required: true,
                 maxLength: 100,

@@ -92,7 +92,7 @@ const MySkill = () => {
 
       {/* SKILLS */}
       <div className="md:flex md:jusity-between mt-16 gap-32">
-        {/* EXPERIENCE */}
+        {/* PRODUCTIVE */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"

@@ -6,6 +6,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.toLowerCase();
   return (
     <AnchorLink
+      //set for active color
       className={`${
         selectedPage === lowerCasePage ? "text-yellow" : ""
       } hover:text-yellow transition duration-500`}
@@ -25,7 +26,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   return (
     //z -> z-index / py -> padding y-axsis
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
-      {/* items-center->align-items: center / w->width 5/6->% */}
+      {/* items-center->align-items:center / w->width 5/6->83% */}
       <div className="flex items-center justify-between mx-auto w-5/6">
         <h4 className="font-playfair text-3xl font-bold">FL</h4>
 
@@ -67,8 +68,8 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             </a>
           </div>
         ) : (
-          //rounded-full->border-radius:50%
           <button
+            //rounded-full->border-radius:50%
             className="rounded-full bg-red p-2"
             onClick={() => setIsMenuToggled(!isMenuToggled)}
           >
@@ -78,7 +79,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
         {/* MOBILE MENU POPUP */}
         {!isAboveSmallScreens && isMenuToggled && (
-          //w-[300px] syntax allow because 'just in time' mode setting in tailwind.config
+          //w-[300px] syntax allowed because 'jit' mode set in tailwind.config
           <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
             {/* CLOSE ICON */}
             <div className="flex justify-end p-12">

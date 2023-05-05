@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="h-35 bg-opaque-black p-10">
       <div className="w-5/6 mx-auto">
         {/* <SocialMediaIcons /> */}
-        <div className="md:flex justify-center md:justify-between text-center">
+        <div className="md:flex md:justify-between text-center">
           <p className="font-playfair font-semibold text-2xl text-yellow">
             FINN LECTER
           </p>
