@@ -48,7 +48,7 @@ const Landing = ({ setSelectedPage }) => {
             Finn {""}
             {/* before:content-brush, setting in tailwind.config */}
             <span className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush before:absolute before:-left-[35px] before:-top-[125px] before:z-[-1]">
-              Lecter
+              &nbsp; L.
             </span>
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start whitespace-pre-line">
