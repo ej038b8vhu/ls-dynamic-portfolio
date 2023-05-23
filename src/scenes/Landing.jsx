@@ -13,18 +13,18 @@ const Landing = ({ setSelectedPage }) => {
       {/* IMAGE SECTION */}
       <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-13">
         {isAboveMediumScreen ? (
-          <div className="relative z-0 ml-20 before:absolute before:-top-12 before:-left-20 before:rounded-t-[350px] before:w-full before:max-w[350px] before:h-full before:border-2 before:border-blue before:z-[-1]">
+          <div className="relative z-0 ml-20 before:absolute before:-top-12 before:-left-20  before:w-full before:max-w[350px] before:h-full before:border-2 before:border-blue before:z-[-1]">
             <img
-              src="./assets/finn.jpg"
-              className="filter contrast-125 hover:filter hover:saturate-150 duration-500 z-10 max-w-[400px] rounded-t-[350px]"
+              src="https://images.unsplash.com/photo-1584448141569-69f342da535c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60"
+              className="duration-500 z-10 max-w-[400px]"
               alt="profile"
             />
           </div>
         ) : (
           <img
             alt="profile"
-            src="./assets/finn.jpg"
-            className="filter contrast-125 hover:filter hover:saturate-200 duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[350px]"
+            src="https://images.unsplash.com/photo-1584448141569-69f342da535c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60"
+            className="z-10 w-full max-w-[400px] md:max-w-[600px]"
           />
         )}
       </div>
@@ -48,7 +48,7 @@ const Landing = ({ setSelectedPage }) => {
             Finn {""}
             {/* before:content-brush, setting in tailwind.config */}
             <span className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush before:absolute before:-left-[35px] before:-top-[125px] before:z-[-1]">
-              &nbsp; L.
+              Lecter
             </span>
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start whitespace-pre-line">
