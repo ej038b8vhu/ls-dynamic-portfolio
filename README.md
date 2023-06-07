@@ -1,4 +1,4 @@
-# [Portfolio](https://dynamic-lecter.netlify.app)
+# [DYNAMIC-PORTFOLIO](https://dynamic-lecter.netlify.app)
 
 Hi Finn,  
   
