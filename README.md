@@ -1,4 +1,5 @@
-# [DYNAMIC-PORTFOLIO](https://dynamic-lecter.netlify.app)
+# [Dynamic-Portfolio](https://dynamic-lecter.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9a167c2f-275d-4281-8d99-4a3a7fe9cb46/deploy-status)](https://app.netlify.com/sites/dynamic-lecter/deploys)
 
 Hi Finn,  
   
