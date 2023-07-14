@@ -64,7 +64,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="../assets/github-mark-white.png" alt="github-link" />
+              <img
+                src="../assets/github-mark-white.png"
+                alt="github-link"
+                className="w-6"
+              />
             </a>
           </div>
         ) : (
@@ -115,7 +119,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 setSelectedPage={setSelectedPage}
               />
               <a
-                className="hover:opacity-50 transition duration-500 w-8"
+                className="hover:opacity-50 transition duration-500 w-6"
                 href="https://github.com/ej038b8vhu"
                 target="_blank"
                 rel="noreferrer"

@@ -25,9 +25,9 @@ const MySkill = () => {
           </p>
           <LineGradient />
           <p className="flex items-center flex-wrap gap-4 mt-10 mb-7">
-            <img src="../assets/react.svg" alt="react-logo" className="h-10" />
+            <img src="/assets/react.svg" alt="react-logo" className="h-10" />
             <img
-              src="../assets/react-router.svg"
+              src="/assets/react-router.svg"
               alt="react-router-logo"
               className="h-8"
             />

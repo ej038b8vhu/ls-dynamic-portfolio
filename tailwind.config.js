@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{html,js,jsx}"],
+export default {
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
   /* 'jit' stand fro 'Just-in-Time engine' offer more feature to use */
   mode: "jit",
   theme: {
@@ -29,10 +29,10 @@ module.exports = {
       },
       /* for css 'before/after:content-' use image  */
       content: {
-        brush: "url('/public/assets/brush.png')",
-        stamp1: "url('/public/assets/stamp-1.png')",
-        stamp2: "url('/public/assets/stamp-2.png')",
-        stamp3: "url('/public/assets/stamp-3.png')",
+        brush: "url('./assets/brush.png')",
+        stamp1: "url('./assets/stamp-1.png')",
+        stamp2: "url('./assets/stamp-2.png')",
+        stamp3: "url('./assets/stamp-3.png')",
       },
     },
     /* responsive setting syntax -> xs:... */
